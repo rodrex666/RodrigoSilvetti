@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
 
     <header>
         <nav>
             <div class="logo">
-                <h1>Tu Nombre</h1>
+                <h1>Rodri Silvetti</h1>
             </div>
             <ul class="nav-links">
-                <li><a href="#about">Sobre Mí</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -25,57 +27,98 @@
     <main>
         <section id="hero">
             <div class="hero-text">
-                <h2>Hola, soy [Tu Nombre]</h2>
-                <p>[Tu Profesión o Especialidad]</p>
-                <a href="#projects" class="btn">Ver mis proyectos</a>
+                <h2>Hello there, I'm Rodrigo Silvetti </h2>
+                <p>XR Developer</p>
+                <a href="#projects" class="btn">View My Projects</a>
             </div>
         </section>
 
         <section id="about">
-            <h2>Sobre Mí</h2>
+            <h2>About Me</h2>
             <div class="about-content">
-                <img src="https://via.placeholder.com/150" alt="Tu Foto" class="profile-pic">
-                <p>Escribe aquí una breve descripción sobre ti. Habla de tus pasiones, tus habilidades y en qué tipo de proyectos te gusta trabajar. ¡Hazlo personal y profesional!</p>
+                <img src=Images/Rodri-Photo.jpg alt="Your Photo" class="profile-pic">
+                <p> I'm an XR and Game Developer who loves turning complex ideas into fun experiences.
+My path started in systems engineering, took a detour through Germany for a personal challenge (and to learn the language!), and landed me in the awesome world of Digital Reality with a Master's degree.
+My tools of choice are Unity and Unreal Engine 5.I'm currently channeling my love for music into a hand-tracking VR instrument, and my next quest is to rebuild it in UE5 to include gamified music lessons. I'm a firm believer that the best way to learn is by playing, and I bring that same fun-first, relaxed approach to my teamwork. I do my best work when the vibe is chill and collaborative. 
+                </p>
             </div>
         </section>
 
+        <section id="skills">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-react-original-wordmark colored"></i>
+                    <p>React</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-python-plain-wordmark colored"></i>
+                    <p>Python</p>
+                </div>
+                 <div class="skill-item">
+                    <i class="devicon-git-plain colored"></i>
+                    <p>Git</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-figma-plain colored"></i>
+                    <p>Figma</p>
+                </div>
+                </div>
+        </section>
+
         <section id="projects">
-            <h2>Mis Proyectos</h2>
+            <h2>My Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <img src="https://via.placeholder.com/300x200" alt="Imagen del Proyecto 1">
-                    <h3>Proyecto Uno</h3>
-                    <p>Una breve descripción de tu proyecto. ¿Qué problema resuelve? ¿Qué tecnologías usaste?</p>
+                    <img src="https://via.placeholder.com/300x200" alt="Project 1 Image">
+                    <h3>Project One</h3>
+                    <p>A brief description of your project. What problem does it solve? What technologies did you use?</p>
                     <div class="project-links">
-                        <a href="#" target="_blank">Ver Demo</a>
-                        <a href="#" target="_blank">Código Fuente</a>
+                        <a href="#" target="_blank">View Demo</a>
+                        <a href="#" target="_blank">Source Code</a>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="https://via.placeholder.com/300x200" alt="Imagen del Proyecto 2">
-                    <h3>Proyecto Dos</h3>
-                    <p>Una breve descripción de tu proyecto. ¿Qué problema resuelve? ¿Qué tecnologías usaste?</p>
+                    <img src="https://via.placeholder.com/300x200" alt="Project 2 Image">
+                    <h3>Project Two</h3>
+                    <p>A brief description of your project. What problem does it solve? What technologies did you use?</p>
                     <div class="project-links">
-                        <a href="#" target="_blank">Ver Demo</a>
-                        <a href="#" target="_blank">Código Fuente</a>
+                        <a href="#" target="_blank">View Demo</a>
+                        <a href="#" target="_blank">Source Code</a>
                     </div>
                 </div>
                 </div>
         </section>
 
         <section id="contact">
-            <h2>Contacto</h2>
-            <p>¿Interesado en colaborar? ¡Contáctame!</p>
+            <h2>Contact</h2>
+            <p>Interested in collaborating? Get in touch!</p>
             <div class="social-links">
-                <a href="mailto:tuemail@example.com"><i class="fas fa-envelope"></i> Email</a>
-                <a href="https://linkedin.com/in/tu-usuario" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://github.com/tu-usuario" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://linkedin.com/in/your-username" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i> GitHub</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 [Tu Nombre]. Todos los derechos reservados.</p>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
     </footer>
 
 </body>
